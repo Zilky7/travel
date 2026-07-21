@@ -1,0 +1,54 @@
+services:
+  app:
+    image: travel:latest
+    ports:
+      - "3002:3000"
+    environment:
+      - NODE_ENV=production
+      - DATABASE_URL=postgresql://travel:travel_secret@postgres:5432/travel_db
+      - NEXTAUTH_URL=https://travel.zilky7777.cn
+      - NEXTAUTH_SECRET=${NEXTAUTH_SECRET}
+      - AUTH_SECRET=${NEXTAUTH_SECRET}
+      - AUTH_URL=https://travel.zilky7777.cn
+      - AUTH_TRUST_HOST=true
+      - DEEPSEEK_API_KEY=${DEEPSEEK_API_KEY}
+      - DEEPSEEK_BASE_URL=https://api.deepseek.com
+      - XIAOMI_API_KEY=${XIAOMI_API_KEY}
+      - XIAOMI_BASE_URL=${XIAOMI_BASE_URL}
+      - XIAOMI_MODEL=${XIAOMI_MODEL}
+      - NEXT_PUBLIC_BAIDU_MAP_AK=wmLUPRgtlIWlpCBSfdL9yM7rq0brHmwR
+    volumes:
+      - uploads_data:/app/public/uploads
+    depends_on:
+      postgres:
+        condition: service_healthy
+    restart: unless-stopped
+    networks:
+      - app-network
+
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: travel
+      POSTGRES_PASSWORD: travel_secret
+      POSTGRES_DB: travel_db
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "127.0.0.1:5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U travel"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+    networks:
+      - app-network
+
+volumes:
+  postgres_data:
+  uploads_data:
+
+networks:
+  app-network:
+    driver: bridge

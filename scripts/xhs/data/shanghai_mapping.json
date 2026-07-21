@@ -1,0 +1,119 @@
+{
+  "version": "1.0",
+  "description": "XHS post classification mapping - Shanghai",
+  "attractionRenames": {
+    "上海/上海公园": { "newName": "上海公园(待确认)", "note": "帖子是'言叶之庭'风格公园照,具体公园不明" }
+  },
+  "postReclassify": {
+    "上海/外滩/7": { "toAttraction": "苏州河", "reason": "虹书舫在苏州河畔,不属于外滩" },
+    "上海/外滩/15": { "toAttraction": "陆家嘴", "reason": "整篇讲陆家嘴citywalk" },
+    "上海/外滩/27": { "toAttraction": "苏州河", "reason": "虹书舫在苏州河畔,不属于外滩" },
+    "上海/外滩/32": { "toAttraction": "苏州河", "reason": "苏州河一日游路线,不属于外滩" },
+    "上海/外滩/35": { "toAttraction": "陆家嘴", "reason": "陆家嘴三件套拍照攻略" },
+    "上海/陆家嘴/0": { "toAttraction": "苏州河", "reason": "苏州河畔citywalk,不是陆家嘴" },
+    "上海/陆家嘴/1": { "toAttraction": "豫园", "reason": "豫园隐藏机位分享,不是陆家嘴" }
+  },
+  "classifications": {
+    "上海/外滩": [
+      { "index": 0, "type": "B", "reason": "p1-p17列出13+不同位置(千树中心/瑞金洲际/北外滩/马勒别墅等)" },
+      { "index": 1, "type": "B", "reason": "p1-p10列出北外滩5个子位置,且含广告内容" },
+      { "index": 2, "type": "A", "spotName": "外滩观景台", "reason": "明确说机位在光大银行对面,3张图都在同一位置" },
+      { "index": 3, "type": "B", "reason": "9个机位横跨上海多区(沙美大楼/北外滩/静安寺/礼和洋行等)" },
+      { "index": 4, "type": "B", "reason": "北外滩10个机位(长治路/小巨蛋/国际港务/外白渡桥等)" },
+      { "index": 5, "type": "B", "reason": "9个位置横跨上海(翡悦里/莘庄梅园/国金中心/外滩五号等)" },
+      { "index": 6, "type": "B", "reason": "一日游路线:武康大楼->HAUS NOWHERE->轮渡->陆家嘴->南京路->外滩" },
+      { "index": 7, "type": "A", "spotName": "虹书舫", "reason": "聚焦虹书舫(北苏州路111号)一个地点的4个拍照角度" },
+      { "index": 8, "type": "B", "reason": "外滩citywalk路线9个机位(四川路桥/新天安堂/外白渡桥/观景台等)" },
+      { "index": 9, "type": "B", "reason": "18个机位横跨外滩区域(邮政博物馆/苏州河/乍浦路桥/沙美大楼等)" },
+      { "index": 10, "type": "B", "reason": "18个位置遍布上海(天安千树/静安寺/马勒别墅/外滩源/沙美大楼等)" },
+      { "index": 11, "type": "B", "reason": "一日游路线:武康大楼-安福路-静安寺-张园-南京路-外滩-豫园-城隍庙" },
+      { "index": 12, "type": "A", "spotName": "外滩6号", "reason": "聚焦外滩6号一个位置,正对东方明珠" },
+      { "index": 13, "type": "B", "reason": "10个机位(沙美大楼/长治路/平安里/礼和洋行/外滩源/外白渡桥等)" },
+      { "index": 14, "type": "A", "spotName": "国际港务大厦", "reason": "整篇聚焦国际港务大厦一个机位,详细指路" },
+      { "index": 15, "type": "B", "reason": "陆家嘴citywalk(金茂/朵云书院/震旦博物馆/浦东美术馆/东方明珠)" },
+      { "index": 16, "type": "B", "reason": "14个位置遍布上海(马勒别墅/花园饭店/歇浦路渡口/北外滩巨蛋等)" },
+      { "index": 17, "type": "B", "reason": "12个位置遍布上海(马勒别墅/花园饭店/公青森林公园/北外滩等)" },
+      { "index": 18, "type": "B", "reason": "8站旅游打卡(外滩/陆家嘴/武康路/静安寺/迪士尼/豫园/城隍庙等)" },
+      { "index": 19, "type": "B", "reason": "多景点旅游攻略(武康大楼/武康路/豫园/城隍庙/陆家嘴/东方明珠/外滩)" },
+      { "index": 20, "type": "B", "reason": "18个机位(国际港务/白玉兰观景台/邮政博物馆/沙美大楼等)" },
+      { "index": 21, "type": "B", "reason": "多日游超全攻略(淮海中路/安福路/北外滩/陆家嘴/城隍庙等)" },
+      { "index": 22, "type": "B", "reason": "18个机位遍布上海(马勒别墅/兴国宾馆/北外滩/徐汇滨江/外滩等)" },
+      { "index": 23, "type": "A", "spotName": "外滩观景台", "reason": "阴天外滩蓝调,聚焦外滩一个区域的氛围照" },
+      { "index": 24, "type": "B", "reason": "9个位置(千树天安/武康大楼/绿房子/邮政博物馆/静安寺等)" },
+      { "index": 25, "type": "B", "reason": "北外滩不绕路攻略,多个打卡点" },
+      { "index": 26, "type": "B", "reason": "黄浦区外滩多个顶级机位(苏河湾/外滩源等城市风光)" },
+      { "index": 27, "type": "A", "spotName": "虹书舫", "reason": "聚焦虹书舫(北苏州路111号)蓝调时刻" },
+      { "index": 28, "type": "A", "spotName": "外滩观景台", "reason": "在外滩拍摄的双人时尚照,视频截图" },
+      { "index": 29, "type": "B", "reason": "多景点旅游攻略(豫园/城隍庙/沉香阁/外滩等)" },
+      { "index": 30, "type": "B", "reason": "8个机位(迪士尼/武康大楼/沙美大楼/静安寺/豫园/前滩/世界会客厅/陆家嘴)" },
+      { "index": 31, "type": "B", "reason": "P1-P18列出18个位置遍布上海" },
+      { "index": 32, "type": "B", "reason": "苏州河一日游12+站(OLD SIX CAFEER/八号桥/Fotografiska/四行仓库等)" },
+      { "index": 33, "type": "B", "reason": "8个建筑楼梯机位(氪空间/前滩四方城/东和公寓/米域有光等)" },
+      { "index": 34, "type": "B", "reason": "多个夜景机位(外滩BFC/世界会客厅/滨江名人苑/博山小区/杨浦大桥)" },
+      { "index": 35, "type": "A", "spotName": "陆家嘴三件套仰拍点", "reason": "超详细教程:东泰路井盖位置手机0.5x仰拍三件套" },
+      { "index": 36, "type": "B", "reason": "多个位置(沙美大楼/乍浦路桥/浦东观景台/武康大楼/外滩万国建筑群)" }
+    ],
+    "上海/迪士尼": [
+      { "index": 0, "type": "A", "spotName": "创极速光轮", "reason": "聚焦创极速光轮拍照,1张图" },
+      { "index": 1, "type": "A", "spotName": "迪士尼乐园", "reason": "迪士尼园区内多处拍照姿势,但都在迪士尼内" },
+      { "index": 2, "type": "A", "spotName": "疯狂动物城", "reason": "在疯狂动物城区域的拍照" },
+      { "index": 3, "type": "A", "spotName": "迪士尼城堡", "reason": "主要拍城堡,章鱼小丸子等" },
+      { "index": 4, "type": "A", "spotName": "迪士尼乐园", "reason": "特定机位拍照,描述为空但标题暗示单一机位" },
+      { "index": 5, "type": "A", "spotName": "疯狂动物城", "reason": "聚焦疯狂动物城定点打卡" },
+      { "index": 6, "type": "A", "spotName": "迪士尼乐园", "reason": "迪士尼内拍照,OPPO广告但图在迪士尼" },
+      { "index": 7, "type": "A", "spotName": "迪士尼乐园", "reason": "万圣节cos甄嬛在迪士尼" },
+      { "index": 8, "type": "A", "spotName": "疯狂动物城", "reason": "疯狂动物城创意照片" },
+      { "index": 9, "type": "A", "spotName": "疯狂动物城", "reason": "疯狂动物城拍照姿势" },
+      { "index": 10, "type": "A", "spotName": "迪士尼乐园", "reason": "描述提到甜心糖果屋" }
+    ],
+    "上海/武康大楼": [
+      { "index": 0, "type": "A", "spotName": "武康大楼", "reason": "夜晚武康大楼拍照" },
+      { "index": 1, "type": "A", "spotName": "武康大楼", "reason": "武康路citywalk含武康大楼,但主要在武康路区域" },
+      { "index": 2, "type": "A", "spotName": "武康大楼", "reason": "在武康大楼偶遇拍照" },
+      { "index": 3, "type": "A", "spotName": "武康大楼", "reason": "p12武康大楼角落排队拍照" },
+      { "index": 4, "type": "A", "spotName": "武康大楼", "reason": "拍武康大楼,虽不理解为什么大家都拍" }
+    ],
+    "上海/苏州河": [
+      { "index": 0, "type": "A", "spotName": "苏州河沿岸", "reason": "苏州河沿河建筑散步随拍" },
+      { "index": 1, "type": "A", "spotName": "苏州河樱花谷驿站", "reason": "聚焦苏州河樱花谷驿站紫藤萝" },
+      { "index": 2, "type": "B", "reason": "夜逛路线(静安大悦城->天潼路->苏州河->乍浦桥->沙美大楼->人民广场)" },
+      { "index": 3, "type": "B", "reason": "苏州河多桥散步(山西路桥->四川路桥->乍浦路桥->外白渡桥)" },
+      { "index": 4, "type": "B", "reason": "p1-p9列出9个不同位置(宝山滨江/苏州河/小巨蛋/翡悦里等)" }
+    ],
+    "上海/华东政法大学": [
+      { "index": 0, "type": "B", "reason": "P1-P17列出7个不同公园/大学(华政/兴国宾馆/东郊宾馆/延中绿地/夏衍故居/上海理工/上海交响乐博物馆)" }
+    ],
+    "上海/武康路": [
+      { "index": 0, "type": "A", "spotName": "武康路", "reason": "在武康路citywalk胶片风拍照,含vivo广告" },
+      { "index": 1, "type": "A", "spotName": "武康路", "reason": "武康路街拍,1张图" },
+      { "index": 2, "type": "A", "spotName": "武康路", "reason": "武康路被街拍" },
+      { "index": 3, "type": "A", "spotName": "武康路", "reason": "武康路citywalk和姐妹" },
+      { "index": 4, "type": "A", "spotName": "武康路", "reason": "上海city walk拍照" }
+    ],
+    "上海/豫园": [
+      { "index": 0, "type": "A", "spotName": "豫园园林", "reason": "豫园中式园林拍照" },
+      { "index": 1, "type": "A", "spotName": "豫园园林", "reason": "豫园光线人像拍照" },
+      { "index": 2, "type": "B", "reason": "豫园详细攻略含门票交通路线,但也有拍照内容" },
+      { "index": 3, "type": "A", "spotName": "豫园园林", "reason": "韩国人在豫园穿传统服装拍照" },
+      { "index": 4, "type": "A", "spotName": "豫园园林", "reason": "豫园拍照" },
+      { "index": 5, "type": "B", "reason": "城隍庙夜景攻略含豫园/九曲桥/湖心亭/巧克力博物馆等多个点" },
+      { "index": 6, "type": "A", "spotName": "豫园园林", "reason": "上海旅游记录,主要在豫园" },
+      { "index": 7, "type": "A", "spotName": "豫园灯会", "reason": "豫园灯会拍照,聚焦灯会布置" },
+      { "index": 8, "type": "B", "reason": "城隍庙夜游攻略含九曲桥/豫园花园/点春堂等多点" },
+      { "index": 9, "type": "A", "spotName": "豫园园林", "reason": "豫园游记" }
+    ],
+    "上海/上海公园": [
+      { "index": 0, "type": "A", "spotName": "上海公园(待确认)", "reason": "言叶之庭风格公园照,具体公园名不明" }
+    ],
+    "上海/1933老场坊": [
+      { "index": 0, "type": "A", "spotName": "1933老场坊", "reason": "聚焦1933老场坊内部楼梯和机位" }
+    ],
+    "上海/陆家嘴": [
+      { "index": 0, "type": "B", "reason": "苏州河畔citywalk,应重分类到苏州河" },
+      { "index": 1, "type": "A", "spotName": "豫园灯会隐藏机位", "reason": "豫园隐藏楼上机位,应重分类到豫园" }
+    ],
+    "上海/城隍庙": [
+      { "index": 0, "type": "A", "spotName": "城隍庙", "reason": "城隍庙腊梅拍照" }
+    ]
+  }
+}

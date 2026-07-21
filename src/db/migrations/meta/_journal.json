@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1777748576185,
+      "tag": "0000_useful_magneto",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1778091738905,
+      "tag": "0001_flat_ted_forrester",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1778400744040,
+      "tag": "0002_clumsy_toro",
+      "breakpoints": true
+    }
+  ]
+}
